@@ -3,7 +3,8 @@ import { View, Text } from "react-native";
 
 const HomeScreen = (): JSX.Element => <View style={{
     flex: 1,
-    backgroundColor: "powderblue"
+    alignItems: "center",
+    justifyContent: "center"
 }}>
     <Text>HomeScreen</Text>
 </View>
